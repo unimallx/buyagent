@@ -1,6 +1,6 @@
 backend: 
- name: git-gateway 
- branch: master # 分支名称，按你的实际情况而定  
+  name: git-gateway 
+  branch: master # 分支名称，按你的实际情况而定  
 media_folder: "docs/.vuepress/public/uploads" # 媒体文件夹路径 
 public_folder: "/uploads"  
 
