@@ -18,3 +18,15 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: [] }
+  - name: "page1"
+    label: "page1"
+    folder: "page1"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
